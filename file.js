@@ -1,4 +1,4 @@
-var foo = "bard";
+var foo = 'bard';
 
 foo;
 
@@ -14,10 +14,10 @@ const Task = function (title, desc, dueDate) {
   };
 };
 
-const newTask = new Task("test title", "a description", "today");
+const newTask = new Task('test title', 'a description', 'today');
 newTask.hello;
 
-const name = "James";
+const name = 'James';
 
 const person = { first: name };
 
@@ -26,3 +26,5 @@ console.log(person);
 const sayHelloLinting = (fName) => {
   console.log(`Hello linting, ${fName}`);
 };
+
+sayHelloLinting('James');
